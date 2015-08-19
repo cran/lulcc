@@ -1,4 +1,4 @@
-f6100d6a9106d2ce4b0980402a4a16f8 *DESCRIPTION
+edcfe316332d7ffb1a75e25465bcb767 *DESCRIPTION
 0c502a74bf5daba35f1fe2c9ce8b4b66 *NAMESPACE
 52b3e656b78f9ad99c9b6bfba897371d *R/AgreementBudget.R
 dc430fb9eb9f92dc66ab4d736c81123e *R/ExpVarRasterList.R
@@ -101,8 +101,8 @@ c781dfc7d0209bf199f69381b7ba7c97 *man/resample.Rd
 fc4b6528e403ccf5550bbb4fb1cb563f *man/subset-methods.Rd
 a9c9e4bc5ec96e554c450e7a54c22dec *man/summary-methods.Rd
 1ab4955e31e69e5fc0e358b41d4612fe *man/total.Rd
-d57e7ebca63a0eea6ff5acf42dbe7f35 *src/allocateclues.c
-df2fec52d6e85e5fecad4281e8020e65 *src/allow.c
+9b20265f9bebe857dddfde00eee7660d *src/allocateclues.c
+96842cafe0c7412e2cd1e7f937ed820e *src/allow.c
 bd4e3f87a22c595b73c76a5c226f79bb *src/autoconvert.c
-02c853aca63d3f13c96a6a03e8a7ccb9 *src/total.c
+0f3d9b3d7c8f55e125ca51f633d48993 *src/total.c
 c7cc782a57e396f22ae8e14a8dd92644 *src/updatehist.c
