@@ -1,8 +1,8 @@
 Package: lulcc
 Title: Land Use Change Modelling in R
-Version: 1.0.1
-Author: Simon Moulds <simon.moulds10@imperial.ac.uk>
-Maintainer: Simon Moulds <simon.moulds10@imperial.ac.uk>
+Version: 1.0.2
+Author: Simon Moulds <sim.moulds@gmail.com>
+Maintainer: Simon Moulds <sim.moulds@gmail.com>
 Description: Classes and methods for spatially explicit land use change
     modelling in R.
 Depends: methods, raster, R (>= 3.1.0)
@@ -11,9 +11,9 @@ LazyData: true
 Imports: ROCR, lattice, rasterVis
 Suggests: caret, rpart, randomForest, gsubfn, Hmisc, plyr,
         RColorBrewer,
-Collate: 'class-CategoryLabel.R' 'class-PredictiveModelList.R'
-        'class-ObsLulcRasterStack.R' 'class-NeighbRasterStack.R'
-        'class-ExpVarRasterList.R' 'class-Model.R'
+Collate: 'class-CategoryLabel.R' 'class-ObsLulcRasterStack.R'
+        'class-PredictiveModelList.R' 'class-ExpVarRasterList.R'
+        'class-NeighbRasterStack.R' 'class-Model.R'
         'class-ThreeMapComparison.R' 'AgreementBudget.R'
         'ExpVarRasterList.R' 'FigureOfMerit.R' 'Model.R'
         'NeighbRasterStack.R' 'ObsLulcRasterStack.R'
@@ -28,7 +28,8 @@ Collate: 'class-CategoryLabel.R' 'class-PredictiveModelList.R'
         'plot.FigureOfMerit.R' 'plot.Performance.R' 'plot.R'
         'predict.R' 'resample.R' 'show.R' 'subset.R' 'summary.R'
         'total.R'
-Packaged: 2015-08-19 08:56:15 UTC; simon
+Packaged: 2017-03-27 13:11:40 UTC; simon
 NeedsCompilation: yes
 Repository: CRAN
-Date/Publication: 2015-08-19 11:50:07
+Date/Publication: 2017-03-27 14:28:10 UTC
+RoxygenNote: 6.0.1
