@@ -15,7 +15,7 @@
 SEXP updatehist(SEXP lu0, SEXP lu1, SEXP h) { //, SEXP h, SEXP a) {
 
     R_len_t i;
-    int *lu_t0, *lu_t1, *hist;
+    int *lu_t0, *lu_t1, *h_t0, *h_t1;
     int ncell = length(lu0);
 
     PROTECT(lu0 = coerceVector(lu0, INTSXP));
@@ -24,18 +24,25 @@ SEXP updatehist(SEXP lu0, SEXP lu1, SEXP h) { //, SEXP h, SEXP a) {
     PROTECT(lu1 = coerceVector(lu1, INTSXP));
     lu_t1 = INTEGER(lu1);
 
-    PROTECT(h = coerceVector(duplicate(h), INTSXP));
-    hist = INTEGER(h);
+    /* PROTECT(h = coerceVector(duplicate(h), INTSXP)); */
+    PROTECT(h = coerceVector(h, INTSXP));
+    h_t0 = INTEGER(h);
+    
+    SEXP hist_t1; 
+    PROTECT(hist_t1 = allocVector(INTSXP, ncell));
+    h_t1 = INTEGER(hist_t1);
 
     for (i = 0; i < ncell; i++) {
         if (lu_t0[i] == lu_t1[i]) {
-            hist[i] += 1;
+            h_t1[i] = h_t0[i] + 1;
+            /* hist[i] += 1; */
         } else {
-            hist[i] = 0;
+            h_t1[i] = 0;
+            /* hist[i] = 0; */
         }
     }
     
-    UNPROTECT(3);
-    return(h);
-
+    UNPROTECT(4);
+    return(hist_t1);
+    /* return(h); */
 }

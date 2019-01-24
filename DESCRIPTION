@@ -1,6 +1,6 @@
 Package: lulcc
 Title: Land Use Change Modelling in R
-Version: 1.0.2
+Version: 1.0.3
 Author: Simon Moulds <sim.moulds@gmail.com>
 Maintainer: Simon Moulds <sim.moulds@gmail.com>
 Description: Classes and methods for spatially explicit land use change
@@ -28,8 +28,8 @@ Collate: 'class-CategoryLabel.R' 'class-ObsLulcRasterStack.R'
         'plot.FigureOfMerit.R' 'plot.Performance.R' 'plot.R'
         'predict.R' 'resample.R' 'show.R' 'subset.R' 'summary.R'
         'total.R'
-Packaged: 2017-03-27 13:11:40 UTC; simon
+Packaged: 2019-01-24 12:47:14 UTC; simon
 NeedsCompilation: yes
 Repository: CRAN
-Date/Publication: 2017-03-27 14:28:10 UTC
+Date/Publication: 2019-01-24 13:30:03 UTC
 RoxygenNote: 6.0.1

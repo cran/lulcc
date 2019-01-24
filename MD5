@@ -1,4 +1,4 @@
-cfa2b7e2363ef242321695b0cba30b11 *DESCRIPTION
+7ef2a68807d10d6ce69ba4f43a070da6 *DESCRIPTION
 dccec25c0792346bacdd97851c34c58b *NAMESPACE
 52b3e656b78f9ad99c9b6bfba897371d *R/AgreementBudget.R
 dc430fb9eb9f92dc66ab4d736c81123e *R/ExpVarRasterList.R
@@ -26,7 +26,7 @@ afef52bc5bcf55e431ff092759bdeb09 *R/class-PredictiveModelList.R
 14b7ad4cc1b11d0917f416be7e523860 *R/class-ThreeMapComparison.R
 3c56fb7d0717fe4703079c74b54ed9c8 *R/coerce.R
 c825154d62513c3fa063a6053dc39428 *R/compareAUC.R
-477ae06b4972754b6913e24b4b7ce060 *R/crossTabulate.R
+053a8db2006c4271d3e789856f1cc1b7 *R/crossTabulate.R
 78390e08ccdcbb9c1307a1efe77c30d5 *R/data.R
 81dc86e06501fece5cd7bc1ddb8d6aa9 *R/getPredictiveModelInputData.R
 fea2c1a268eaf6d3b5e0dcae947da986 *R/index.R
@@ -106,4 +106,4 @@ d323e95793268eedb1c1e59271021496 *man/total.Rd
 bd4e3f87a22c595b73c76a5c226f79bb *src/autoconvert.c
 4a265667f448cd22b95adb322e5d27d5 *src/lulcc_init.c
 0f3d9b3d7c8f55e125ca51f633d48993 *src/total.c
-c7cc782a57e396f22ae8e14a8dd92644 *src/updatehist.c
+3ebb0266bcc454ddfd330472f0449ab5 *src/updatehist.c
