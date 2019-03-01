@@ -1,4 +1,4 @@
-7ef2a68807d10d6ce69ba4f43a070da6 *DESCRIPTION
+8532494fb0785f70ffb3063a8223a173 *DESCRIPTION
 dccec25c0792346bacdd97851c34c58b *NAMESPACE
 52b3e656b78f9ad99c9b6bfba897371d *R/AgreementBudget.R
 dc430fb9eb9f92dc66ab4d736c81123e *R/ExpVarRasterList.R
@@ -32,7 +32,7 @@ c825154d62513c3fa063a6053dc39428 *R/compareAUC.R
 fea2c1a268eaf6d3b5e0dcae947da986 *R/index.R
 d1ca46cb21085149bf67d0e6202af13b *R/length.R
 4d57416ba192a9614fb10b4a6c407306 *R/lulcc-package.R
-22cfb836b173a1244dba3db6e20d610b *R/models.R
+f821de6e2f62d79aa2b69509b9acfd36 *R/models.R
 8f89baa6e72d762aa96ac18bdfc9b022 *R/names.R
 c4cbd751a9fce3dbb6de9282c99efa74 *R/partition.R
 003b88928ba63399772a287f179d1573 *R/performance.rocr.R

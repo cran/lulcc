@@ -102,14 +102,18 @@ rpartModels <- function(formula, ..., obs, categories=NA, labels=NA) {
 .checkFormula <- function(formula, categories, labels) {
     dep <- sapply(formula, function(x) as.character(x)[2])
 
-    if (is.na(categories) | is.na(labels)) {
-        stop("'categories' and 'labels' must be supplied if 'obs' is missing")
-    } 
-
-    if (length(categories) != length(labels)) {
+    nc = length(categories)
+    nl = length(labels)
+    if (nc != nl) {
         stop("'labels' must correspond to 'categories'")
+    } else {
+        if (nc == 1) {
+            if (is.na(categories) | is.na(labels)) {
+                stop("'categories' and 'labels' must be supplied if 'obs' is missing")
+            }
+        }
     }
-
+    
     ## if (!missing(obs)) {
     ##     categories <- obs@categories
     ##     labels <- obs@labels
